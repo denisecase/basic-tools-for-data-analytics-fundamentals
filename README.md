@@ -22,38 +22,22 @@ Chocolatey makes it easy to keep your software up-to-date.
 Web browsers
 
 - Google Chrome
-- Mozilla Firefox
 
 Editors
 
 - Notepad++
-- Visual Studio Code (VS Code) - FIRST TIME DO THIS THE TYPICAL WAY
-
-Working with Large Compressed Files
-
-- 7zip
-
-JavaScript without a Browser
-
-- Node.js (includes npm, the Node package manager)
-
-Web Utilities
-
-- cURL - data transfer utility
-- Wget - file retrieval utility (request HTTP, HTTPS, and FTP from scripts
-- Postman - Web API Development Environment
+- Visual Studio Code (VS Code)
 
 Version Control
 
-- Git for Windows (comes with Git Bash, a little bit of Linux on Windows :) ) - FIRST TIME DO THIS THE TYPICAL WAY
-- TortoiseGit (integrates with Windows File Manager) -- FIRST TIME DO THIS THE TYPICAL WAY
+- Git for Windows (comes with Git Bash, a little bit of Linux on Windows) :) 
+- TortoiseGit (integrates with Windows File Manager)
 
-Utilities
+Programming Environments
 
-- PuTTY - terminal emulator, includes PuTTYGen for generating SSH public-private key pairs used with Git repos
+- Anaconda3 - a Python distribution for data processing
 
 All recommended tools are free.
-
 
 ## Install Chocolatey
 
@@ -71,7 +55,7 @@ It's safe to install software you already have (e.g., typically Chrome is alread
 All at once:
 
 ```PowerShell
-choco install googlechrome notepadplusplus (add all packages as desired) -y
+choco install anaconda3 notepadplusplus (add all packages as desired) -y
 ```
 
 Refresh environment variables if they have been modified.
@@ -133,36 +117,10 @@ Important!
 - Ensure VS Code installs right-click 'Open with Code' on folder context menus. If not, reinstall using traditional methods.
 - Ensure full TortoiseGit context menus are available. If not, reinstall using traditional methods. 
 
-## Optional
-
-Firefox Add-ons
-
-- Firefox Multi-Account Containers (limit access across apps)
-- uBlockOrigin (blocker) ensure name includes "Origin"
-- HTTPS Everywhere (requires encryption)
-
-Ruby + Dev kit (for Jekyll, etc.)
-
-```Powershell
-choco install ruby -y
-refreshenv
-choco install ruby2.devkit -y
-refreshenv
-```
-
 Ananconda3 (for Python)
 
 ```Powershell
 choco install anaconda3 -y
-```
-
-Professional Java Development
-
-```PowerShell
-choco install openjdk -y
-choco install eclipse -y
-choco install gradle -y
-choco install maven -y
 ```
 
 ## Terms
