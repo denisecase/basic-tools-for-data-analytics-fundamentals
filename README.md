@@ -19,23 +19,18 @@ Installing software on Windows can be done by typing simple commands with [Choco
 If you don't have these tools installed (or even if you do), we recommend using Chocolately to install them. 
 Chocolatey makes it easy to keep your software up-to-date. 
 
-Web browsers
+Programming Environments
 
-- Google Chrome
+- Anaconda - a Python distribution for data processing
 
-Editors
+Code Editor
 
-- Notepad++
 - Visual Studio Code (VS Code)
 
 Version Control
 
 - Git for Windows (comes with Git Bash, a little bit of Linux on Windows) :) 
 - TortoiseGit (integrates with Windows File Manager)
-
-Programming Environments
-
-- Anaconda3 - a Python distribution for data processing
 
 All recommended tools are free.
 
@@ -55,7 +50,7 @@ It's safe to install software you already have (e.g., typically Chrome is alread
 All at once:
 
 ```PowerShell
-choco install anaconda3 notepadplusplus (add all packages as desired) -y
+choco install anaconda3 vscode git tortoisegit -y
 ```
 
 Refresh environment variables if they have been modified.
@@ -67,17 +62,11 @@ refreshenv
 Or one at a time:
 
 ```PowerShell
-choco install googlechrome -y
-choco install notepadplusplus -y
+choco install anaconda3 -y
 choco install vscode -y
-choco install 7zip -y
-choco install nodejs -y
-choco install curl -y
-choco install wget -y
 choco install git -y
 choco install tortoisegit -y
-choco install putty -y
-choco install postman -y
+refreshenv
 ```
 
 ### Optional: Browse Chocolatey Software Packages
@@ -116,12 +105,6 @@ Important!
 
 - Ensure VS Code installs right-click 'Open with Code' on folder context menus. If not, reinstall using traditional methods.
 - Ensure full TortoiseGit context menus are available. If not, reinstall using traditional methods. 
-
-Ananconda3 (for Python)
-
-```Powershell
-choco install anaconda3 -y
-```
 
 ## Terms
 
