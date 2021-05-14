@@ -114,6 +114,8 @@ Important!
 - Ensure VS Code installs right-click 'Open with Code' on folder context menus. If not, reinstall using traditional methods.
 - Ensure full TortoiseGit context menus are available. If not, reinstall using traditional methods. 
 
+---
+
 ## Terms
 
 - automation tools
