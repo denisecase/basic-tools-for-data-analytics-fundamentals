@@ -10,9 +10,11 @@
 - [Windows Setup for Developers](https://github.com/denisecase/windows-setup)
 - [Windows File Management](https://github.com/denisecase/windows-file-management)
 
-## Read about Windows Software Automation
+## Read about Software Automation
 
-Installing software on Windows can be done by typing simple commands with [Chocolatey](https://chocolatey.org/), a software automation tool for Windows. 
+Installing software on **Windows** can be done by typing simple commands with [Chocolatey](https://chocolatey.org/), a software automation tool for Windows. 
+
+For all other operating sytems, use Option 2 below. 
 
 ## Read about Common Tools for Development
 
