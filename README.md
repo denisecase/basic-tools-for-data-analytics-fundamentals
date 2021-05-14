@@ -34,6 +34,10 @@ Version Control
 
 All recommended tools are free.
 
+---
+
+> Option 1: Install Windows Software with Chocolatey
+
 ## Install Chocolatey
 
 Use powerful automation tools to make installing software easier. Install Chocolatey, the Windows Package Manager from <https://chocolatey.org/> by following the directions on the website.
@@ -94,6 +98,10 @@ choco upgrade chocolatey -y
 choco upgrade all -y
 refreshenv
 ```
+
+---
+
+> Option 2: Install Windows Software without Chocolatey (Use the installers on their websites)
 
 ## Installing Without Chocolatey
 
