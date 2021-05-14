@@ -10,16 +10,13 @@
 - [Windows Setup for Developers](https://github.com/denisecase/windows-setup)
 - [Windows File Management](https://github.com/denisecase/windows-file-management)
 
-## Read about Software Automation
+## Operating Systems
 
-Installing software on **Windows** can be done by typing simple commands with [Chocolatey](https://chocolatey.org/), a software automation tool for Windows. 
+- Windows users: Installing software on Windows can be done by typing simple commands with [Chocolatey](https://chocolatey.org/), a software automation tool for Windows. You can use Option 1 below if you like. Option 2 works equally well. 
 
-For all other operating sytems, use Option 2 below. 
+- Mac/Linux/All other users: Skip down to Option 2 below. 
 
 ## Read about Common Tools for Development
-
-If you don't have these tools installed (or even if you do), we recommend using Chocolately to install them. 
-Chocolatey makes it easy to keep your software up-to-date. 
 
 Programming Environments
 
@@ -31,14 +28,14 @@ Code Editor
 
 Version Control
 
-- Git for Windows (comes with Git Bash, a little bit of Linux on Windows) :) 
-- TortoiseGit (integrates with Windows File Manager)
+- Git (comes with Git Bash, which provides a little bit of Linux on Windows) :) 
+- Windows Users only: TortoiseGit (integrates Git and Windows File Manager)
 
 All recommended tools are free.
 
 ---
 
-> Option 1: Install Windows Software with Chocolatey
+> Option 1: Windows users only: Install Windows Software with Chocolatey
 
 ## Install Chocolatey
 
@@ -103,18 +100,18 @@ refreshenv
 
 ---
 
-> Option 2: Install Windows Software without Chocolatey (Use the installers on their websites)
+> Option 2: Install Software (Using the installers on their websites)
 
-## Installing Without Chocolatey
+## Installers
 
 Alternatively, each tool can be installed in the traditional manner. Just go to the website for the software and follow instructions to download, install, and configure tools using provided installers.
 
-## Installation Issues with VS Code and TortoiseGit
+## Installation Issues
 
 Important!
 
 - Ensure VS Code installs right-click 'Open with Code' on folder context menus. If not, reinstall using traditional methods.
-- Ensure full TortoiseGit context menus are available. If not, reinstall using traditional methods. 
+- Windows users only: Ensure full TortoiseGit context menus are available. If not, reinstall using traditional methods. 
 
 ---
 
@@ -138,3 +135,4 @@ Configure Git distributed version control system and automate software upgrades
 ## See Also
 
 - [Setting Up for Professional Software Development](https://github.com/denisecase/pro-dev-list)
+- [Chocolatey Alternatives for Mac](https://alternativeto.net/software/chocolatey/?platform=mac)
